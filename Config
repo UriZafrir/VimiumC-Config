@@ -1,0 +1,34 @@
+unmapAll
+map ? showHelp
+
+map w scrollPageUp
+map s scrollPageDown
+map a scrollLeft
+map d scrollRight
+#map q scrollUp
+#map e scrollDown
+map W scrollToTop
+map S scrollToBottom
+map e nextTab
+map q previousTab
+map t createTab
+map / enterFindMode
+map n performFind
+map N performBackwardsFind
+map f LinkHints.activate
+
+
+map z restoreTab
+map x removeTab goto="left" highlighted
+map Z restoreGivenTab
+map Xx removeRightTab
+map Xz closeTabsOnLeft $count=30
+map Xc closeTabsOnRight $count=30
+map Xa closeOtherTabs
+
+#shortcut createTab position="end"
+#shortcut userCustomized1 command="autoOpen" keyword="dict"
+
+map <up> scrollUp
+map <down> scrollDown
+map p visitPreviousTab
