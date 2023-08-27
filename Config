@@ -5,6 +5,7 @@ map s scrollPageDown
 map a scrollLeft
 map d scrollRight
 map r reload
+map k visitPreviousTab
 
 map F LinkHints.activateOpenInNewForegroundTab
 map f LinkHints.activate
