@@ -5,7 +5,7 @@ map s scrollPageDown
 map a scrollLeft
 map d scrollRight
 map r reload
-map k visitPreviousTab
+map p visitPreviousTab
 map o duplicateTab
 
 map F LinkHints.activateOpenInNewForegroundTab
@@ -22,6 +22,8 @@ map Xc closeTabsOnRight $count=30
 map Xa closeOtherTabs
 map x removeTab
 map t createTab
+map g moveTabLeft
+map h moveTabRight
 
 
 map <up> scrollUp
