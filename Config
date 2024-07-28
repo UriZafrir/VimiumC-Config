@@ -7,8 +7,8 @@ map d scrollRight
 map r reload
 map p visitPreviousTab
 map o duplicateTab
-map [ scrollPxDown
-map ] scrollPxUp
+map ] scrollPxDown
+map [ scrollPxUp
 
 map F LinkHints.activateOpenInNewForegroundTab
 map f LinkHints.activate
